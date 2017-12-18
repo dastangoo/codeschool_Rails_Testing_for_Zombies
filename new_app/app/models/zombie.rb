@@ -1,6 +1,7 @@
 class Zombie < ApplicationRecord
   has_one :weapon
-  
+  validates :name, presence: true, uniqueness: true
+  validates :graveyard, presence: true
   def decapitate
      weapon.slice(self, :head)
      self.status = "dead again"

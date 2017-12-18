@@ -2,10 +2,20 @@
 
 ash:
   id: 1
-  name: Ash
+  name: 'Ash'
   graveyard: Oak Park
 
 tim:
   id: 2
-  name: Tim
+  name: 'Tim'
   graveyard: Green Meadows
+
+bill: 
+  id: 3
+  name: 'Bill'
+  graveyard: 'Oark Park'
+
+mike: 
+  id: 4
+  graveyard: 'Sunnyvale'
+  
