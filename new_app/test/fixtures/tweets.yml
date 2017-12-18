@@ -1,7 +1,7 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
 ash_1:
-  status: Eating Eyebrows
-  zombie_id: 1
+  status: Tweet one
 
 ash_2:
-  status: Lurking 4 Brains
-  zombie_id: 1
+  status: Tweet two

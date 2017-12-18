@@ -4,6 +4,9 @@ class Zombie < ApplicationRecord
   def avatar_url
     "http://zombitar.com/#{id}.jpg"
   end
+  def tweets
+    
+  end
 end
  
 
